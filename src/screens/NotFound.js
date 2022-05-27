@@ -19,7 +19,7 @@ const NotFound = () => {
 							height: "100%",
 							objectFit: "fit",
 						}}
-						src="https://cdn.mos.cms.futurecdn.net/PuXipAW3AXUzUJ4uYyxPKC-1200-80.jpg"
+						src="https://media2.giphy.com/media/XIahGhbK5A685fyr8D/200w.webp?cid=ecf05e47c23y09jna5v64qp7inqs7xha7lbs5s2iaf0dtg9j&rid=200w.webp&ct=g"
 						alt="Not-found"
 					/>
 					<button onClick={GotoHere} className="col-md-3 col-sm-6 col-12 btn btn-success mt-5">

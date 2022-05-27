@@ -22,7 +22,7 @@ export const login = (email, password) => async (dispatch) => {
 			},
 		};
 		const { data, token } = await axios.post(
-			`https://revision1project.herokuapp.com/login/`,
+			`https://mac-project-88.herokuapp.com/login/`,
 			{ email, password },
 			config
 		);
@@ -57,7 +57,7 @@ export const ReGiStEr = (fullName, email, password) => async (dispatch) => {
 			},
 		};
 		const { data, token } = await axios.post(
-			`https://revision1project.herokuapp.com/register/`,
+			`https://mac-project-88.herokuapp.com/register/`,
 			{ fullName, email, password },
 			config
 		);
@@ -89,7 +89,7 @@ export const GetandUpdateUser = (id) => async (dispatch, getState) => {
 			},
 		};
 		const { data } = await axios.post(
-			`https://revision1project.herokuapp.com/profile/${id}`,
+			`https://mac-project-88.herokuapp.com/profile/${id}`,
 			config
 		);
 

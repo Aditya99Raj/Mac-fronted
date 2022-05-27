@@ -14,7 +14,7 @@ export const listProduct = () => async (dispatch) => {
 	try {
 		dispatch({ type: PRODUCT_LIST_REQUEST });
 		const { data } = await axios.get(
-			"https://revision1project.herokuapp.com/product"
+			"https://mac-project-88.herokuapp.com/product"
 		);
 
 		dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });
@@ -37,7 +37,7 @@ export const singleProductDetail = (id) => async (dispatch) => {
 	try {
 		dispatch({ type: PRODUCT_DETAILS_REQUEST });
 		const { data } = await axios.get(
-			`https://revision1project.herokuapp.com/product/${id}`
+			`https://mac-project-88.herokuapp.com/product/${id}`
 		);
 
 		dispatch({ type: PRODUCT_DETAILS_SUCCESS, payload: data });

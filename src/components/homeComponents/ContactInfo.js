@@ -9,8 +9,8 @@ const ContactInfo = () => {
             <div className="info-image">
               <i className="fas fa-phone-alt"></i>
             </div>
-            <h5>Call Us 24x7</h5>
-            <p>100</p>
+            <h5>reach us</h5>
+            <p>199</p>
           </div>
         </div>
         <div className="col-12 col-md-4 contact-Box">

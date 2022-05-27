@@ -3,7 +3,7 @@ import { CART_ADD_ITEM, CART_REMOVE_ITEM } from "../Constants/CartConstant";
 
 export const addToCartItems = (id, qty) => async (dispatch, getState) => {
 	const { data } = await axios.get(
-		`https://revision1project.herokuapp.com/product/${id}`
+		`https://mac-project-88.herokuapp.com/product/${id}`
 	);
 	dispatch({
 		type: CART_ADD_ITEM,

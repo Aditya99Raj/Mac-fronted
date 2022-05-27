@@ -71,10 +71,10 @@ const SingleProduct = () => {
 										</div>
 										<div className="flex-box d-flex justify-content-between align-items-center">
 											<h6>Reviews</h6>
-											<Rating
+											{/* <Rating
 												value={product.rating}
 												text={`${product.numReviews} reviews`}
-											/>
+											/> */}
 										</div>
 										{product.countInStock > 0 ? (
 											<>
@@ -118,16 +118,10 @@ const SingleProduct = () => {
 								</Message>
 								<div className="mb-5 mb-md-3 bg-light p-3 shadow-sm rounded">
 									<strong>User</strong>
-									<Rating />
+									{/* <Rating /> */}
 									<span>May 11 2022</span>
 									<div className="alert alert-info mt-3">
-										Lorem Ipsum is simply dummy text of the
-										printing and typesetting industry. Lorem
-										Ipsum has been the industry's standard
-										dummy text ever since the 1500s, when an
-										unknown printer took a galley of type
-										and scrambled it to make a type specimen
-										book
+									You can’t have as much control over shipping as you can over the general price of your products. The same goes for state sales tax. Shipping details will need to be calculated individually with the customer depending on where they live and what kind of postal service they want to use.
 									</div>
 								</div>
 							</div>

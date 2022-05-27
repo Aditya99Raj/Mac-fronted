@@ -26,7 +26,7 @@ const Header = () => {
 									<Link className="navbar-brand" to="/">
 										<img
 											alt="Home"
-											src="https://images-platform.99static.com//IfMNVgqrW-tazVgq0o3e2u-gmp8=/271x245:1749x1723/fit-in/500x500/99designs-contests-attachments/112/112138/attachment_112138805"
+											src="https://img.freepik.com/free-photo/red-paint-wall-background-texture_53876-14184.jpg?size=626&ext=jpg&ga=GA1.2.1323437519.1653636990"
 										/>
 									</Link>
 								</div>
@@ -55,7 +55,7 @@ const Header = () => {
 													to="#"
 													onClick={logoutHandler}
 												>
-													Logout
+													sign out
 												</Link>
 											</div>
 										</div>
@@ -68,21 +68,21 @@ const Header = () => {
 												aria-haspopup="true"
 												aria-expanded="false"
 											>
-												Hi, user
+												Hi
 											</button>
 											<div className="dropdown-menu">
 												<Link
 													className="dropdown-item"
 													to="/login"
 												>
-													Login
+													sign in
 												</Link>
 
 												<Link
 													className="dropdown-item"
 													to="/register"
 												>
-													Register
+													sign up
 												</Link>
 											</div>
 										</div>
@@ -124,7 +124,7 @@ const Header = () => {
 								<Link className="navbar-brand" to="/">
 									<img
 										alt="Home"
-										src="https://images-platform.99static.com//IfMNVgqrW-tazVgq0o3e2u-gmp8=/271x245:1749x1723/fit-in/500x500/99designs-contests-attachments/112/112138/attachment_112138805"
+										src="https://media.istockphoto.com/photos/shopping-cart-full-of-food-isolated-on-white-grocery-and-food-store-picture-id1320617333?b=1&k=20&m=1320617333&s=170667a&w=0&h=z8wElxWwpMucQ7fFqTaslRoIzxidiXPpyxYgclF_ZZM="
 									/>
 								</Link>
 							</div>

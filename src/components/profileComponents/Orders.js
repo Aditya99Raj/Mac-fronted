@@ -19,9 +19,9 @@ const Orders = () => {
         <table className="table">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>STATUS</th>
-              <th>DATE</th>
+              <th>id</th>
+              <th>status</th>
+              <th>date</th>
               <th>TOTAL</th>
             </tr>
           </thead>
