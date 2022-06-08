@@ -34,7 +34,8 @@ export const NavbarIs = () => {
               <div className="cartIcon">
                 <a href="/cart">
                   <img
-                    src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-1/256/2-512.png"
+                    // src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-1/256/2-512.png"
+                    src="https://png.pngtree.com/element_our/20200702/ourmid/pngtree-cart-shopping-cart-icon-png-free-illustration-image_2284387.jpg"
                     alt=""
                     height="100%"
                     width="100%"
@@ -45,10 +46,10 @@ export const NavbarIs = () => {
           </Navbar.Collapse>
         </Container>
           <Link to="/signup" >
-             <button>SignUp</button>
+             <button style={{padding:20,color: 'white'}}>Register</button>
             </Link>
             <Link to="/signin" >
-            <button>SignIn</button>
+            <button style={{padding:20,color: 'white'}}>Login</button>
             </Link>
       </Navbar>
       

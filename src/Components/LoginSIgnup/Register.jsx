@@ -72,7 +72,9 @@ export const Signup = ()=>{
                 
                 </button>
                 <button className="Gbtn2">
-                    <img className="img2" src="https://i.ibb.co/1fNJnVd/Screenshot-2022-03-30-215245.png" alt="" />
+                    {/* <img className="img2" src="https://i.ibb.co/1fNJnVd/Screenshot-2022-03-30-215245.png" alt="" /> */}
+                    
+                    
                 </button>
             </div>
             <br />
