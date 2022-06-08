@@ -1,0 +1,119 @@
+[ 
+
+    {
+        "id":1,
+        "imgUrl" : "https://storage.googleapis.com/share-gdicdn/images/product/100052859/100052859_07H_1332x2000.jpg",
+        "price" :"6800",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"levis",
+        "quantity":1
+    },
+    {
+        "id":2,
+        "imgUrl" : "https://media.nastygal.com/i/nastygal/agg98253_black_xl",
+        "price" :"1800",
+        "size" : "large",
+        "colour" :"black" ,
+        "brand" :"ajio",
+        "quantity":1
+    },
+    
+    {
+        "id":3,
+        "imgUrl" : "https://fiver.media/cdn-thumb/280x420/e5p/images/mu/2019/05/19/light-pink-denim-jacket-light-pink-116705-5.jpg",
+        "price" :"2800",
+        "size" : "large",
+        "colour" :"pink" ,
+        "brand" :"ajio",
+        "quantity":1
+    },
+
+       {
+        "id":4,
+       "imgUrl" : "https://i.pinimg.com/originals/d7/f3/41/d7f34127f13c9b0aa0647ab9b53feef2.jpg",
+        "price" :"900",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"gucci",
+        "quantity":1
+    },
+    {
+        "id":5,
+        "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0PiIcja7sM7wAhfhdizGOpN0tbCAt05sbK-UlKBG_fY5OoelMknzk4oYBCHQ53HtBFY&usqp=CAU",
+        "price" :"4800",
+        "size" : "large",
+        "colour" :"brown" ,
+        "brand" :"ajio",
+        "quantity":1
+    },
+    
+    
+
+{
+    "id":6,
+    "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210830/wX8s/612cfaafaeb269a268820413/-473Wx593H-460967091-blue-MODEL.jpg",
+    "price" :"2800",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"levis",
+    "quantity":1
+},
+
+{
+    "id":7,
+    "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210830/wX8s/612cfaafaeb269a268820413/-473Wx593H-460967091-blue-MODEL.jpg",
+    "price" :"2800",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"levis",
+    "quantity":1
+},
+{
+    "id":8,
+    "imgUrl" : "https://i.pinimg.com/originals/03/3f/ac/033facfc6d69ee8462722a612f90c17a.jpg",
+    "price" :"1300",
+    "size" : "extralarge",
+    "colour" :"black" ,
+    "brand" :"gucci",
+    "quantity":1
+},
+{
+    "id":9,
+    "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJhbzX1cwTOIETVqZhRskA-QUasDkHwQb7Zn44vko9dRculEcOFZLHnwKoc9gJxr9OfQ&usqp=CAU",
+    "price" :"1800",
+    "size" : "large",
+    "colour" :"blue" ,
+    "brand" :"ajio",
+    "quantity":1
+},
+
+{
+    "id":10,
+    "imgUrl" : "https://i.pinimg.com/originals/2d/53/4b/2d534b8578df0d7fa0010ff29a2c473f.jpg",
+    "price" :"1500",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"levis",
+    "quantity":1
+},
+{
+    "id":11,
+    "imgUrl" : "https://rukminim2.flixcart.com/image/332/398/ktrk13k0/jacket/8/7/y/xs-no-lady-pink-jkt-printcorners-original-imag7yzzt8fksp8y.jpeg?q=50",
+    "price" :"1200",
+    "size" : "small",
+    "colour" :"pink" ,
+    "brand" :"shein",
+    "quantity":1
+},
+{
+    "id":12,
+    "imgUrl" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14455420/2021/6/23/37bff78e-cce8-46de-9648-9d5be1d0eaf51624446043415-Leather-Retail-Women-Brown-Solid-Lightweight-Leather-Jacket--1.jpg",
+    "price" :"2900",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"gucci",
+    "quantity":1
+}
+    
+   ]

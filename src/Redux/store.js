@@ -1,37 +1,22 @@
-import { combineReducers, applyMiddleware } from "redux";
-import { composeWithDevTools } from "redux-devtools-extension";
+
+import { applyMiddleware, combineReducers, createStore } from "redux";
 import thunk from "redux-thunk";
-import { configureStore } from "@reduxjs/toolkit";
-import {
-	productDetailsReducer,
-	productListReducer,
-} from "./Reducers/ProductReducer";
-import { CartReducer } from "./Reducers/CartReducer";
-import { UserloginReducer, UserProfileReducer, UserRegisterReducer } from "./Reducers/UserReducer";
+import { DenimReducer } from "./Denims/reducer";
+import { FrocksReducer } from "./Frocks/reducer";
+import { JacketsReducer } from "./Jackets/reducer";
+import { KurtiReducer } from "./Kurtis/reducer";
+import { MiddisReducer } from "./Middis/reducer";
+import { TopReducer } from "./Tops/reducer";
 
-const cartItemsFromLStorage = localStorage.getItem("cartItems")
-	? JSON.parse(localStorage.getItem("cartItems"))
-	: [];
-const userInfoFromLStorage = localStorage.getItem("userInfo")
-	? JSON.parse(localStorage.getItem("userInfo"))
-	: null ;
-const intialState = {
-	cart: { cartItems: cartItemsFromLStorage },
-	userLogin: { userInfo: userInfoFromLStorage },
-};
+const rootReducer = combineReducers({
 
-let reducers = combineReducers({
-	productList: productListReducer,
-	productDetails: productDetailsReducer,
-	cart: CartReducer,
-	userLogin: UserloginReducer,
-	userRegister: UserRegisterReducer,
-	userDetails: UserProfileReducer,
-});
-const middleware = [thunk];
+    tops : TopReducer ,
+    kurtis : KurtiReducer,
+    denims : DenimReducer,
+    frocks : FrocksReducer ,
+    jackets : JacketsReducer,
+    middis : MiddisReducer
+    
+})
 
-export const Store = configureStore(
-	{ reducer: reducers },
-	intialState,
-	composeWithDevTools(applyMiddleware(...middleware))
-);
+export const store = createStore(rootReducer,applyMiddleware(thunk))
