@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-
+import "./Cart.css"
 export const Cart = () => {
   let total = 0;
   const [data, setData] = useState([]);
@@ -63,6 +63,7 @@ export const Cart = () => {
 
   return (
     <>
+    <div className="cart-img">
       <h1 id="mycart">MY CART</h1>
       <div>
         {data.map((el, index) => {
@@ -109,6 +110,7 @@ export const Cart = () => {
         >
           Proceed to Checkout
         </button>
+      </div>
       </div>
     </>
   );

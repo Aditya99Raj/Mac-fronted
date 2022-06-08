@@ -9,9 +9,9 @@ export const Home = () => {
             <Carousel variant="dark">
 
   <Carousel.Item className="Citem">
-    <img
+    <img style={{ height:400}}
       className="d-block w-100"
-      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/16/5dbfe05b-cf14-4bae-b6af-1ce144bfa18c1652718466927-Bestselling-Styles_Desk.jpg"
+      src="https://img.freepik.com/free-psd/summer-sale-70-discount_23-2148476960.jpg?t=st=1654693425~exp=1654694025~hmac=c57450ca96324f649f531f0f26c0f594e8d99b910a7a48b42092e68a481ac5e0&w=1060"
       alt="First slide"
     />
     <Carousel.Caption className="Ccaption">
@@ -21,9 +21,9 @@ export const Home = () => {
 
 
   <Carousel.Item>
-    <img
+    <img style={{ height:400}}
       className="d-block w-100"
-      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/8/c8e64e6b-4e58-45bb-9999-1f323aa7dc601652014311422-Sportswear_Desk.jpg"
+      src="https://img.freepik.com/free-psd/summer-collection-banner-template_23-2148520730.jpg?t=st=1654693425~exp=1654694025~hmac=f6e178f732db02dee5402af51176c5f4c1ec45ff1dacb0b9c2fe62989b342bbc&w=1060"
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -33,9 +33,9 @@ export const Home = () => {
   
   
   <Carousel.Item>
-    <img
+    <img style={{ height:400}}
       className="d-block w-100"
-      src="https://assets.myntassets.com/https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/8/ba5790ef-6bfe-427c-8b13-739320e1cba11652015668956-Kurtas---Sets_Desk.jpg"
+      src="https://img.freepik.com/free-psd/urban-fashion-banner-template_23-2148652498.jpg?t=st=1654693425~exp=1654694025~hmac=1b2c56e84b5694565eb9b1f259b66138f8dd139d331ca755a8271b310f70622a&w=1060"
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -44,9 +44,9 @@ export const Home = () => {
   </Carousel.Item>
 
   <Carousel.Item>
-    <img
+    <img style={{ height:400}}
       className="d-block w-100"
-      src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/8/ca060c20-3c8d-44d6-b852-beaf3d0cf0a41652028231412-Handbags---Clutches_Desk.jpg"
+      src="https://img.freepik.com/free-psd/fashion-sale-social-media-facebook-cover-design-template_169307-1171.jpg?w=1380"
       alt="Fourth slide"
     />
     <Carousel.Caption>

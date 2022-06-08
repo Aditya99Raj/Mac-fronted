@@ -17,12 +17,12 @@ export const HomeProduct = () => {
             </FlexDiv>
 
             <div className="sales">
-                <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2022/3/10/2a0effa7-c662-45c8-8084-96cdea0710c21646911018691-unisex-1499.gif" alt="" height="100%" width="100%" />
+                <img src="https://img.freepik.com/free-vector/iconic-fashion-sale-social-media-post-templates_48159-857.jpg?w=1480" alt="" height="100%" width="100%" />
             </div>
 
             <div className="threebox" >
                 <div onClick={ () => navigate("/middis")}>
-                    <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/398ee53b-5899-4a9a-9d0b-b35d60c01cb41645602543325-Dresses.jpg" alt="" height="100%" width="100%" />
+                    <img src="https://img.freepik.com/free-photo/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic_285396-2957.jpg?t=st=1654693425~exp=1654694025~hmac=41d1618e8ca46699f031bf7d479d5994175f8e8df7605d30b9c0edd422ced603&w=1060" alt="" height="100%" width="100%" />
                 </div>
                 <div onClick={ () => navigate("/tops")}>
                     <img src="https://lmsin.net/cdn-cgi/image/w=1232,q=60,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-modblock7-oneBythree-A-Women-08April2022.jpg" alt="" height="100%" width="100%"/>
@@ -33,7 +33,7 @@ export const HomeProduct = () => {
             </div>
 
             <div className="sales2">
-                <img src="https://assets.myntassets.com/f_webp,w_490,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2022/3/10/a1690ca9-bcec-469d-b15b-991b3dad64bc1646910870888-SS22-StripBanners-UnisexUnder999.gif" alt="" height="100%" width="100%" />
+                <img src="https://img.freepik.com/free-vector/fashion-sale-social-media-facebook-cover-banner-template_123633-573.jpg?w=1380" alt="" height="100%" width="100%" />
             </div>
 
 
@@ -50,7 +50,7 @@ export const HomeProduct = () => {
             </div>
 
             <div className="sales2">
-                <img src="https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-modularblock-oneBytwo1A-Women-29April2022.jpg" alt="" height="100%" width="100%" />
+                <img src="https://img.freepik.com/free-vector/new-season-banner-template_1361-1221.jpg?t=st=1654693425~exp=1654694025~hmac=6a011c0e5feeef3b4c18948818b879012fae1834b9d1f53cc3c29384359e5876&w=996" alt="" height="100%" width="100%" />
             </div>
 
         </div>

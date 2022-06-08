@@ -48,11 +48,11 @@ export const Signup = ()=>{
     }
 
     return(
-    <div>
+    <div className="rr">
         
         <div className="r2">
                 {/* {console.log(user)} */}
-            <p className="r1">Create Your Account</p>
+            <p className="r1">New ? Register Here</p>
             <input className="r3" type="text" name="name" value={user.name} placeholder="Enter Your Name" onChange={handleChange}/>
             <br />
             <br />
@@ -61,10 +61,10 @@ export const Signup = ()=>{
             <input className="r3" type="password" name="password" value={user.password} placeholder="Enter Your Password" onChange={handleChange}/>
             <br />
             <br />
-            <button className="r4" onClick={register}>Create Account</button>
+            <button className="r4" onClick={register}>Create New Account</button>
             <br />
             <br />
-            <div>Or Sign Up With</div>
+            <div>Or Proceed to Register With</div>
             <br />
             <div className="r5">
                 <button className="Gbtn1">

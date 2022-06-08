@@ -10,7 +10,7 @@ export const NavbarIs = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="info"
+        bg="danger"
         variant="dark"
       >
         <Container className="navbar">
@@ -26,7 +26,7 @@ export const NavbarIs = () => {
               <Nav.Link href="/jackets">Jackets</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#f8ec00ts"></Nav.Link>
+              <Nav.Link href="#29ea0bts"></Nav.Link>
               <Nav.Link
                 eventKey={2}
                 href="#memes"
@@ -46,10 +46,10 @@ export const NavbarIs = () => {
           </Navbar.Collapse>
         </Container>
           <Link to="/signup" >
-             <button style={{padding:20,color: 'white'}}>Register</button>
+             <button style={{padding:20,color: 'black'}}>Register</button>
             </Link>
             <Link to="/signin" >
-            <button style={{padding:20,color: 'white'}}>Login</button>
+            <button style={{padding:20,color: 'black'}}>Login</button>
             </Link>
       </Navbar>
       
