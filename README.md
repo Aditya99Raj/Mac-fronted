@@ -1,6 +1,6 @@
 ## Mac-Project Backend Repo Link ##
 
-## https://github.com/Aditya99Raj/project-backend ##
+## https://github.com/Aditya99Raj/mac-backend ##
 
 
 ### Ecom
